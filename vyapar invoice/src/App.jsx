@@ -31,7 +31,7 @@ function App() {
               <button className="btn btn-dark" onClick={handleSidebarToggle}>
                 {sidebarOpen ? <FaTimes style={{ fontSize: "18px" }} /> : <FaBars style={{ fontSize: "18px" }} />}
               </button>
-              <input type='text' placeholder='Enter Business Name' style={{ outline: "none", background:"#212529", fontSize:"18px"}}></input>
+              <input type='text' placeholder='Enter Business Name' style={{ background:"#212529", fontSize:"18px"}}></input>
               <FaBell style={{fontSize:"18px"}}/>
             </div>
             {sidebarOpen && <Menubar sidebarOpen={sidebarOpen} handleSidebarToggle={handleSidebarToggle} />}
